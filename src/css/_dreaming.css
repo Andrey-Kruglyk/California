@@ -1,0 +1,22 @@
+.dreaming {
+	justify-content: center;
+	align-items: center;
+	span {
+		max-width: 871px;
+		font-size: 24px
+	}
+	img {
+		width: 95%;
+		max-width: 1173px;
+		max-height: 573px;
+		margin-top: 60px;
+		cursor: pointer;
+	}
+}
+@media (max-width: 900px) { 
+    .dreaming span {
+		font-size: 16px;
+		display: block;
+		max-width: 600px;
+    }
+}
